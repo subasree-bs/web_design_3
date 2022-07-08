@@ -1,0 +1,112 @@
+body{
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+    /* position: relative; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #3b1ceb; */
+
+}
+.pink{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e7a6f0 !important;
+    margin: 45px 0 0 45px;
+}
+.box1{
+    height: 475px !important;
+    width: 320px !important;
+    background-color: violet !important;
+    /* background-image: radial-gradient(circle, red, yellow, green); */
+    /* background-image: radial-gradient(farthest-side at 130% 55%, red, yellow, black); */
+    background-image: radial-gradient(farthest-corner at 140% 55%, black, yellow, red);
+    position: absolute;
+    z-index: 5 !important;
+    margin-left: 90px;
+    margin-top: -45px !important;
+    opacity: 0.8 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 10px 10px 10px 10px;
+}
+.smallb1{
+    height: 47px !important;
+    width: 100%;
+    background-color: white;
+    font-size: 13px;
+    opacity: 0.5;
+    padding: 2px;
+    /* margin: 5px; */
+}
+.bigbox1{
+    height:280px;
+    width: 100%;
+    background-color: white;
+}
+.img1{
+    width: 100%;
+    height: 88px;
+    position: relative !important;
+}
+.bottom-left {
+    position: absolute !important;
+    bottom: 8px;
+    left: 16px;
+  }
+  .cont{
+    padding:12px 5px 12px 10px;
+  }
+  .subcont{
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+.box2{
+    height: 460px !important;
+    width: 340px !important;
+    background-color: violet !important;
+    /* background-image: radial-gradient(circle, red, yellow, green); */
+    /* background-image: radial-gradient(farthest-side at 130% 55%, red, yellow, black); */
+    /* background-image: radial-gradient(farthest-corner at 140% 55%, red, yellow, black); */
+    background-image: radial-gradient(farthest-corner at 140% 55%, black, yellow, red);
+    position: absolute;
+    z-index: 5 !important;
+    margin-left: 490px !important;
+    margin-top: 105px !important;
+    /* opacity: 0.8 !important; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 10px 10px 10px 10px;
+}
+.right{
+    float:right;
+}
+.fa-circle-plus{
+    color:blue;
+}
+.smallb1title{
+    font-weight: bolder;
+    font-size: 13px;
+}
+.fa-xmark{
+    color: #cc0ab2;
+}
+.fa-plus{
+    color: #1251fc;
+}
+hr{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.grey{
+    color:grey;
+}
+.smallb2{
+    height: 47px !important;
+    width: 100%;
+    background-color: white;
+    font-size: 13px;
+    padding: 2px;
+    /* margin: 5px; */
+}
